@@ -16,11 +16,13 @@
     .lead {
       margin-left: 0;
       margin-right: 0;
+      max-width: 984px;
     }
   }
   
   @media (max-width: 768px) {
     .lead {
       margin-top: 50px;
+      max-width: 768px;
     }
   }

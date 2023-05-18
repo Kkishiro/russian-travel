@@ -9,16 +9,16 @@
   
   @media screen and (max-width: 768px) {
     .cover__title {
-      max-width: 288px;
-      font-size: 37px;
-      line-height: 40px;
-      margin: 0 auto 16px;
+      max-width: 560px;
+      font-size: 72px;
+      line-height: 76px;
+      margin: 0 auto 32px;
     }
   }
   
   @media screen and (max-width: 320px) {
     .cover__title {
-      max-width: 250px;
+      max-width: 288px;
       font-size: 32px;
       line-height: 35px;
     }
