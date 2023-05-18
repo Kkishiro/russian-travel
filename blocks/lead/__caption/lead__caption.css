@@ -1,7 +1,6 @@
 .lead__caption {
     margin: 0;
     padding-top: 8px;
-    max-width: 158px;
     font-size: 10px;
     line-height: calc(14 / 10 * 100%);
     letter-spacing: 1.43px;
@@ -10,13 +9,14 @@
   
   @media (max-width: 1024px) {
     .lead__caption {
-      padding-left: 24px;
+      padding-left: 48px;
       transition: all .25s linear;
     }
   }
   
   @media (max-width: 768px) {
     .lead__caption {
-      padding-left: 16px;
+      padding-left: 24px;
+      max-width: 158px;
     }
   }
