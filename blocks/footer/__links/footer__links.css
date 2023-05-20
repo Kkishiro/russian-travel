@@ -7,17 +7,21 @@
     list-style-type: none;
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
     .footer__links {
       margin: 0 24px 24px;
-      gap: 18px;
     }
   }
 
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 767px)  {
     .footer__links {
-      margin: 0 auto 48px 16px;
+      margin: 0px 0px 48px;
       row-gap: 32px;
       flex-direction: column;
+    }
+  }
+  @media screen and (max-width: 320px){
+    .footer__links {
+      margin: 0 auto 48px 16px;
     }
   }

@@ -2,3 +2,10 @@
 .place__website {
     align-self: end;
   }
+
+  @media screen and (max-width: 768px) {
+    .place__website {
+      align-self: baseline;
+    }
+  }
+  

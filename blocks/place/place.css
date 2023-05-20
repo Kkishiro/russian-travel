@@ -10,7 +10,7 @@
     margin-bottom: 0;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1279px) {
     .place {
       grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
       gap: 48px 32px;
@@ -18,15 +18,16 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1023px) {
     .place {
       grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
-      gap: 48px 28px;
+      column-gap: 28px;
+      row-gap: 48px;
       margin: 0 auto calc(3.125rem + (100vw - 320px) / (768 - 320) * (72 - 50));
     }
   }
   
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 767px) {
     .place {
       grid-template-columns: minmax(min-content, max-content);
       gap: 32px;

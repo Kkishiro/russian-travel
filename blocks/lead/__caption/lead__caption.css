@@ -9,7 +9,6 @@
   
   @media (max-width: 1024px) {
     .lead__caption {
-      padding-left: 48px;
       transition: all .25s linear;
     }
   }
@@ -17,6 +16,11 @@
   @media (max-width: 768px) {
     .lead__caption {
       padding-left: 24px;
-      max-width: 158px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .lead__caption {
+      padding-left: 16px;
     }
   }

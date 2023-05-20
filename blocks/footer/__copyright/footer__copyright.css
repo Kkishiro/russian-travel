@@ -13,8 +13,15 @@
     }
   }
 
+  @media (max-width: 767px) {
+    .footer__copyright {
+      line-height: 100%;
+      margin: 0px 24px 0px 0px;
+    }
+  }
+
   @media screen and (max-width: 320px) {
     .footer__copyright {
-      margin: 0px auto 24px 16px;
+      margin: 0px 0px 24px 16px;
     }
   }

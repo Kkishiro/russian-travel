@@ -9,9 +9,14 @@
   
   @media (max-width: 768px) {
     .lead__subtitle {
-      max-width: calc(288px + (352 + 352 * .7) * (100vw - 320px) / 767);
-      font-size: calc(16px + (14 + 14 * .7) * (100vw - 320px) / 767);
+      max-width: calc(288px + (352 + 352 * .7) * (100vw - 320px) / 768);
+      font-size: calc(16px + (14 + 14 * .7) * (100vw - 320px) / 768);
       line-height: calc(20 / 16 * 100%);
-      padding-top: 32px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .lead__subtitle {
+      padding-top: 16px;
     }
   }
