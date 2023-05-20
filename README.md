@@ -20,7 +20,7 @@
 
 Вы можете просто открыть файл `index.html` в любом браузере или запустить его на локальном сервере.
 
-Также вы можете просмотреть этот проект онлайн: [https://your-link-here.com](https://your-link-here.com)
+Также вы можете просмотреть этот проект онлайн: [https://kkishiro.github.io/russian-travel/](https://kkishiro.github.io/russian-travel/)
 
 ## Авторы
 
