@@ -6,14 +6,6 @@
     margin: 0 auto;
     max-width: 360px;
   }
-  
-  @media screen and (max-width: 320px) {
-    .cover__subtitle {
-      font-size: 14px;
-      line-height: 16px;
-      margin: 0px 16px;
-    }
-  }
 
   @media (max-width: 767px) {
     .cover__subtitle {
@@ -22,4 +14,12 @@
       font-size: calc(14px + (4 + 4 * .7) * (100vw - 320px) / 767);
       line-height: calc(16 / 14 * 100%);
     }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0px 16px;
+  }
 }
