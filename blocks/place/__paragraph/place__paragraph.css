@@ -3,17 +3,21 @@
     font-size: 1.125rem;
     font-weight: normal;
     line-height: 1.835rem;
+    display: flex;
+    flex-direction: column;
   }
   
   .place__paragraph:last-child {
     margin-bottom: 0;
+    gap: 0;
+    grid-column-start: 2;
   }
   
   @media screen and (max-width: 768px) {
     .place__paragraph {
       font-size: calc(0.95rem + (100vw - 320px) / (768 - 320));
       line-height: 1.625rem;
-      margin: 0 0 25px;
+      margin: 0 0 26px;
     }
   }
   

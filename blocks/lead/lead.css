@@ -14,15 +14,14 @@
   
   @media (max-width: 1024px) {
     .lead {
-      margin-left: 0;
-      margin-right: 0;
-      max-width: 984px;
+      margin-left: 0px;
+      margin-right: 0px;
     }
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 320px) and (max-width: 768px) {
     .lead {
-      margin-top: 50px;
+      margin-top: 48px;
       max-width: 768px;
     }
   }
