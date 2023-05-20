@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto 24px;
+    flex-wrap: wrap;
   }
   
   @media screen and (max-width: 1280px) {
@@ -11,21 +12,24 @@
     }
   }
   
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1023px) {
     .footer {
-      margin: 0 48px 24px;
+      margin: 0 24px 24px;
     }
   }
   
   @media screen and (max-width: 768px) {
     .footer {
-      margin: 0 0 0px;
+      margin-left: 16px;
+      flex-direction: column;
+      align-items: baseline;
+      row-gap: 48px;
     }
   }
 
   @media screen and (max-width: 320px) {
     .footer {
-      margin: 0 0 0px;
+      margin:0px;
       flex-direction: column;
     }
   }
